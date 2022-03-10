@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/iphone_se_3.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="239dp"
+    android:viewportWidth="320"
+    android:viewportHeight="239"
+    >
+
+    <group>
+
+        <clip-path
+            android:pathData="M8 0H312C316.418 0 320 3.58172 320 8V231C320 235.418 316.418 239 312 239H8C3.58172 239 0 235.418 0 231V8C0 3.58172 3.58172 0 8 0Z"
+            />
+
+        <path
+            android:pathData="M0 0V239H320V0"
+            android:fillColor="#FFFFFF"
+            />
+
+    </group>
+
+</vector>

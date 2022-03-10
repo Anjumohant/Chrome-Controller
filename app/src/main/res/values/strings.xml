@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Chrome Controller</string>
+    <string name="access_deni">Access Denied</string>
+    <string name="schedule">Schedule</string>
+    <string name="add_timing">Add Timing</string>
+    <string name="string_labe"> From </string>
+    <string name="string_labelto"> To </string>
+    <string name="starts">STARTS</string>
+    <string name="ends">ENDS</string>
+    <string name="mode">
+
+Mode
+</string>
+    <string name="whitelist">
+
+Whitelist
+</string>
+    <string name="blacklist">
+
+Blacklist
+</string>
+    <string name="in_blacklis">
+
+In blacklist mode, the websites in the list are blocked but all other websites are allowed.
+</string>
+    <string name="in_whitelis">
+
+In whitelist mode, the websites in the list are allowed but all other websites are blocked.
+</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Access_Denied">
+
+    <View
+        android:id="@+id/group_761"
+        android:layout_width="254.67dp"
+        android:layout_height="209.86dp"
+        android:layout_alignParentLeft="true"
+       android:layout_marginBottom="50dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="149.78dp"
+        android:layout_height="149.78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ellipse_3"
+        app:layout_constraintBottom_toBottomOf="@+id/group_761"
+        app:layout_constraintEnd_toEndOf="@+id/group_761"
+        app:layout_constraintStart_toStartOf="@+id/group_761"
+        app:layout_constraintTop_toTopOf="@+id/group_761" />
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:rotation="150"
+        android:layout_marginBottom="190dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/line_2"
+        app:layout_constraintBottom_toTopOf="@+id/access_deni"
+        app:layout_constraintEnd_toEndOf="@+id/ellipse_3"
+        app:layout_constraintStart_toStartOf="@+id/ellipse_3"
+        app:layout_constraintTop_toTopOf="@+id/group_761" />
+
+    <TextView
+        android:id="@+id/access_deni"
+        android:layout_width="254.67dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/access_deni"
+        android:textAppearance="@style/access_deni"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/group_761" />
+
+    <!-- Line 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double tap to exit"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/access_deni" />
+</androidx.constraintlayout.widget.ConstraintLayout>
